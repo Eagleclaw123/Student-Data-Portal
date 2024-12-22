@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JNTUHCERS</title>
+    <link rel="icon" href="jntr logo.ico" />
+
+    <!-- <link href="styles.css" type="text/css" rel="stylesheet" /> -->
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      html,body{
+        background-color:#222831;
+        height: 100vh;
+      }
+
+      .row:after {
+        content: "";
+        clear: both;
+        display: block;
+      }
+
+      [class*="col-"] {
+        float: left;
+        padding: 15px;
+      }
+
+      /* Global Styles */
+      .banner {
+        display: inline-block;
+        margin: auto;
+      }
+
+      .navigation {
+        display: flex;
+        background-color: #00adb5;
+        padding: 11px;
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        margin: 0;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      a:visited {
+        color: white;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-family: Arial;
+        width: 800px;
+      }
+
+      nav li {
+        padding: 10px;
+        margin-bottom: 7px;
+        /* background-color: #191c1c; */
+        background-color:#222831;
+
+        border-radius: 8px;
+        color: #ffffff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        margin-left: 10px;
+        margin-right: 10px;
+        display: inline-block;
+      }
+
+      nav li:hover {
+        background-color: #8e8e8e;
+      }
+
+      footer {
+        background-color: #19a5de;
+        color: #fff;
+        text-align: center;
+        font-size: 0.9em;
+        padding: 15px;
+      }
+
+      h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        color: #fff;
+      }
+
+      img {
+        width: 100px;
+      }
+
+      h1 > p {
+        margin-left: 10px;
+        text-align: center;
+      }
+
+      .login {
+        text-align: right;
+        /* margin-left: 650px; */
+      }
+
+      .frame{
+        width: 100%;
+        height: 100%;
+        border: none;
+        text-align: center;
+      }
+      iframe{
+        width: 100%;
+        height: 99%;
+        border: none;
+      }
+
+      /* Tablet View */
+      @media only screen and (min-width: 768px) {
+        .col-6 {
+          width: 50%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        <a href="index.html">
+          <img class="banner" src="jntr logo.ico" alt="logo" />
+        </a>
+        <p>JAWAHARLAL NEHRU TECHNOLOGICAL UNIVERSITY HYDERABAD<br />
+        University College of Engineering Rajanna Sircilla</p>
+      </h1>
+    </header>
+
+    <div class="navigation">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="">Administration</a></li>
+          <li><a href="#">Academics</a></li>
+          <li><a href="#">Student Corner</a></li>
+          <li><a href="#">Contact us</a></li>
+          <a href="login.html"><li class="login">Student Login</li></a>
+
+        </ul>
+
+      </nav>
+    </div>
+
+    <div  class="frame">
+      <iframe src="card.html"></iframe>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Team BKMSR<sup>4</sup></p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+terminal commands:
+
+npm init -y
+
+npm install express nodemailer body-parser
+
+node server.js
+
+Open your web browser and navigate to http://localhost:3000.
